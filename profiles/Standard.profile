@@ -14886,6 +14886,10 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
+        <layout>Account-Acc Pagelayout</layout>
+        <recordType>Account.Acc_recordtype</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Account-Formato de cuentas</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -16250,6 +16254,11 @@
         <apexPage>copado__viewOrg</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Account.Acc_recordtype</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Idea.InternalIdeasIdeaRecordType</recordType>
