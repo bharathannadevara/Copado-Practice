@@ -407,6 +407,12 @@
         </filters>
         <label>New This Week</label>
     </listViews>
+    <recordTypes>
+        <fullName>Acc_recordtype</fullName>
+        <active>true</active>
+        <description>creating for acc pagelayout</description>
+        <label>Acc recordtype</label>
+    </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>ACCOUNT.ADDRESS1_CITY</customTabListAdditionalFields>
