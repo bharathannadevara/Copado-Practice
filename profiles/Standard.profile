@@ -14887,10 +14887,10 @@
     </fieldPermissions>
     <layoutAssignments>
         <layout>Account-Acc Pagelayout</layout>
-        <recordType>Account.Acc_recordtype</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Account-Formato de cuentas</layout>
+        <layout>Account-Acc Pagelayout</layout>
+        <recordType>Account.Acc_recordtype</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Asset-Formato de activos</layout>
