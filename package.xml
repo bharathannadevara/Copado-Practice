@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Contact-Con Layout</members>
-        <name>Layout</name>
+        <members>Account.Summary__c</members>
+        <name>CustomField</name>
     </types>
     <types>
-        <members>Standard</members>
-        <name>Profile</name>
-    </types>
-    <types>
-        <members>Contact.With_RecordType</members>
-        <name>RecordType</name>
+        <members>Only_Field_Permissions</members>
+        <name>PermissionSet</name>
     </types>
     <version>58.0</version>
 </Package>
