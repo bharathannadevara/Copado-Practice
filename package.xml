@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Account.account_record_type</members>
-        <name>RecordType</name>
+        <members>Contact.Technology__c</members>
+        <name>CustomField</name>
     </types>
     <types>
-        <members>AccountRating</members>
-        <name>StandardValueSet</name>
+        <members>Programming_Languages</members>
+        <name>GlobalValueSet</name>
+    </types>
+    <types>
+        <members>Contact.Tech</members>
+        <name>RecordType</name>
     </types>
     <version>58.0</version>
 </Package>
