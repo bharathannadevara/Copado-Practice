@@ -16,4 +16,14 @@
         <default>false</default>
         <label>Pregunta</label>
     </standardValue>
+    <standardValue>
+        <fullName>Query</fullName>
+        <default>false</default>
+        <label>Query</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Doubt</fullName>
+        <default>false</default>
+        <label>Doubt</label>
+    </standardValue>
 </StandardValueSet>
