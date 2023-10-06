@@ -25,10 +25,6 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Cost__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
                 <field>Annual_Remark__c</field>
             </layoutItems>
             <layoutItems>
