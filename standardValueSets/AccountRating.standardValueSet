@@ -16,4 +16,19 @@
         <default>false</default>
         <label>Frío</label>
     </standardValue>
+    <standardValue>
+        <fullName>hot and cold</fullName>
+        <default>false</default>
+        <label>hot and cold</label>
+    </standardValue>
+    <standardValue>
+        <fullName>hot and warm</fullName>
+        <default>false</default>
+        <label>hot and warm</label>
+    </standardValue>
+    <standardValue>
+        <fullName>cold and warm</fullName>
+        <default>false</default>
+        <label>cold and warm</label>
+    </standardValue>
 </StandardValueSet>
