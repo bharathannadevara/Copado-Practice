@@ -278,6 +278,35 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>Feedback__c</fullName>
+        <externalId>false</externalId>
+        <label>Feedback</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Good</fullName>
+                    <default>false</default>
+                    <label>Good</label>
+                </value>
+                <value>
+                    <fullName>Average</fullName>
+                    <default>false</default>
+                    <label>Average</label>
+                </value>
+                <value>
+                    <fullName>Not Good</fullName>
+                    <default>false</default>
+                    <label>Not Good</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Industry</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
@@ -317,6 +346,16 @@
         <fullName>Rating</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Review__c</fullName>
+        <externalId>false</externalId>
+        <label>Review</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>ShippingAddress</fullName>
