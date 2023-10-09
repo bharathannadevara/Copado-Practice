@@ -427,6 +427,11 @@
         <description>creating for acc pagelayout</description>
         <label>Acc recordtype</label>
     </recordTypes>
+    <recordTypes>
+        <fullName>account_record_type</fullName>
+        <active>true</active>
+        <label>account record type</label>
+    </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>ACCOUNT.ADDRESS1_CITY</customTabListAdditionalFields>
