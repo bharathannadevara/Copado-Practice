@@ -14927,7 +14927,11 @@
         <layout>CommunityMemberLayout-Community Member Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Contact-Formato de contactos</layout>
+        <layout>Contact-Con Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Contact-Con Layout</layout>
+        <recordType>Contact.With_RecordType</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>ContactPointAddress-Formato Dirección de punto de contacto</layout>
@@ -16252,6 +16256,11 @@
     <recordTypeVisibilities>
         <default>true</default>
         <recordType>Account.Acc_recordtype</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Contact.With_RecordType</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
