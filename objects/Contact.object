@@ -450,6 +450,18 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>Technology__c</fullName>
+        <externalId>false</externalId>
+        <label>Technology</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Programming_Languages</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Title</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -508,6 +520,38 @@
         </filters>
         <label>New This Week</label>
     </listViews>
+    <recordTypes>
+        <fullName>Tech</fullName>
+        <active>true</active>
+        <label>Tech</label>
+        <picklistValues>
+            <picklist>Technology__c</picklist>
+            <values>
+                <fullName>Apex</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>C</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>C%23</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>C%2B%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Java</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Python</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
     <recordTypes>
         <fullName>With_RecordType</fullName>
         <active>true</active>
