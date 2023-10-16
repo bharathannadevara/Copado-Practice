@@ -2,11 +2,12 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>Account.Summary__c</members>
+        <members>Contact.Emergencyyy__c</members>
         <name>CustomField</name>
     </types>
     <types>
-        <members>Only_Field_Permissions</members>
-        <name>PermissionSet</name>
+        <members>Account.Acc_recordtype</members>
+        <name>RecordType</name>
     </types>
     <version>58.0</version>
 </Package>
