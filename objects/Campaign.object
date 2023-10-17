@@ -298,6 +298,11 @@
         </filters>
         <label>My Active Campaigns</label>
     </listViews>
+    <recordTypes>
+        <fullName>Camp</fullName>
+        <active>true</active>
+        <label>Camp</label>
+    </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>CAMPAIGN.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>CAMPAIGN.STATUS</customTabListAdditionalFields>
