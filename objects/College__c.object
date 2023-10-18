@@ -153,6 +153,127 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>Department__c</fullName>
+        <externalId>false</externalId>
+        <label>Department</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>CSE</fullName>
+                    <default>false</default>
+                    <label>CSE</label>
+                </value>
+                <value>
+                    <fullName>ECE</fullName>
+                    <default>false</default>
+                    <label>ECE</label>
+                </value>
+                <value>
+                    <fullName>MECH</fullName>
+                    <default>false</default>
+                    <label>MECH</label>
+                </value>
+                <value>
+                    <fullName>CIVIL</fullName>
+                    <default>false</default>
+                    <label>CIVIL</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Subject__c</fullName>
+        <externalId>false</externalId>
+        <label>Subject</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Department__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Signals and systems ECE</fullName>
+                    <default>false</default>
+                    <label>Signals and systems ECE</label>
+                </value>
+                <value>
+                    <fullName>Electromagnetic transmission lines ECE</fullName>
+                    <default>false</default>
+                    <label>Electromagnetic transmission lines ECE</label>
+                </value>
+                <value>
+                    <fullName>Strength of materials CIVIL</fullName>
+                    <default>false</default>
+                    <label>Strength of materials CIVIL</label>
+                </value>
+                <value>
+                    <fullName>Concrete technology CIVIL</fullName>
+                    <default>false</default>
+                    <label>Concrete technology CIVIL</label>
+                </value>
+                <value>
+                    <fullName>Machine drawing MECH</fullName>
+                    <default>false</default>
+                    <label>Machine drawing MECH</label>
+                </value>
+                <value>
+                    <fullName>Thermal Engineering MECH</fullName>
+                    <default>false</default>
+                    <label>Thermal Engineering MECH</label>
+                </value>
+                <value>
+                    <fullName>Computer Networks CSE</fullName>
+                    <default>false</default>
+                    <label>Computer Networks CSE</label>
+                </value>
+                <value>
+                    <fullName>DBMS CSE</fullName>
+                    <default>false</default>
+                    <label>DBMS CSE</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>CSE</controllingFieldValue>
+                <valueName>Computer Networks CSE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CSE</controllingFieldValue>
+                <valueName>DBMS CSE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ECE</controllingFieldValue>
+                <valueName>Signals and systems ECE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ECE</controllingFieldValue>
+                <valueName>Electromagnetic transmission lines ECE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MECH</controllingFieldValue>
+                <valueName>Machine drawing MECH</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MECH</controllingFieldValue>
+                <valueName>Thermal Engineering MECH</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CIVIL</controllingFieldValue>
+                <valueName>Strength of materials CIVIL</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CIVIL</controllingFieldValue>
+                <valueName>Concrete technology CIVIL</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
     <label>College</label>
     <nameField>
         <label>College Name</label>
