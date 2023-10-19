@@ -11,7 +11,7 @@ public class OpportunityGenerator {
             // Set other Opportunity fields as needed
             opportunitiesToCreate.add(opportunity);
         }
-        
+        // For loop ends here after iterating for 10 times
         if (!opportunitiesToCreate.isEmpty()) {
             insert opportunitiesToCreate;
         }
