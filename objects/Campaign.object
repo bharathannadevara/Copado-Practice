@@ -190,11 +190,6 @@
                     <label>India</label>
                 </value>
                 <value>
-                    <fullName>China</fullName>
-                    <default>false</default>
-                    <label>China</label>
-                </value>
-                <value>
                     <fullName>USA</fullName>
                     <default>false</default>
                     <label>USA</label>
@@ -203,6 +198,12 @@
                     <fullName>Bangladesh</fullName>
                     <default>false</default>
                     <label>Bangladesh</label>
+                </value>
+                <value>
+                    <fullName>China</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>China</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
