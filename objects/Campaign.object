@@ -175,6 +175,39 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>Country__c</fullName>
+        <externalId>false</externalId>
+        <label>Country</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>India</fullName>
+                    <default>false</default>
+                    <label>India</label>
+                </value>
+                <value>
+                    <fullName>China</fullName>
+                    <default>false</default>
+                    <label>China</label>
+                </value>
+                <value>
+                    <fullName>USA</fullName>
+                    <default>false</default>
+                    <label>USA</label>
+                </value>
+                <value>
+                    <fullName>Bangladesh</fullName>
+                    <default>false</default>
+                    <label>Bangladesh</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Description</fullName>
     </fields>
     <fields>
