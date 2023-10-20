@@ -188,16 +188,6 @@
         </valueSet>
     </fields>
     <fields>
-        <fullName>Feedback__c</fullName>
-        <externalId>false</externalId>
-        <label>Feedback</label>
-        <length>100</length>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
         <fullName>Subject__c</fullName>
         <externalId>false</externalId>
         <label>Subject</label>
