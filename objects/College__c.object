@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>Department__c</fullName>
+        <externalId>false</externalId>
+        <label>Department</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>CSE</fullName>
+                    <default>false</default>
+                    <label>CSE</label>
+                </value>
+                <value>
+                    <fullName>ECE</fullName>
+                    <default>false</default>
+                    <label>ECE</label>
+                </value>
+                <value>
+                    <fullName>MECH</fullName>
+                    <default>false</default>
+                    <label>MECH</label>
+                </value>
+                <value>
+                    <fullName>CIVIL</fullName>
+                    <default>false</default>
+                    <label>CIVIL</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Subject__c</fullName>
+        <externalId>false</externalId>
+        <label>Subject</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Department__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Signals and systems ECE</fullName>
+                    <default>false</default>
+                    <label>Signals and systems ECE</label>
+                </value>
+                <value>
+                    <fullName>Electromagnetic transmission lines ECE</fullName>
+                    <default>false</default>
+                    <label>Electromagnetic transmission lines ECE</label>
+                </value>
+                <value>
+                    <fullName>Strength of materials CIVIL</fullName>
+                    <default>false</default>
+                    <label>Strength of materials CIVIL</label>
+                </value>
+                <value>
+                    <fullName>Concrete technology CIVIL</fullName>
+                    <default>false</default>
+                    <label>Concrete technology CIVIL</label>
+                </value>
+                <value>
+                    <fullName>Machine drawing MECH</fullName>
+                    <default>false</default>
+                    <label>Machine drawing MECH</label>
+                </value>
+                <value>
+                    <fullName>Thermal Engineering MECH</fullName>
+                    <default>false</default>
+                    <label>Thermal Engineering MECH</label>
+                </value>
+                <value>
+                    <fullName>Computer Networks CSE</fullName>
+                    <default>false</default>
+                    <label>Computer Networks CSE</label>
+                </value>
+                <value>
+                    <fullName>DBMS CSE</fullName>
+                    <default>false</default>
+                    <label>DBMS CSE</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>CSE</controllingFieldValue>
+                <valueName>Computer Networks CSE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CSE</controllingFieldValue>
+                <valueName>DBMS CSE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ECE</controllingFieldValue>
+                <valueName>Signals and systems ECE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ECE</controllingFieldValue>
+                <valueName>Electromagnetic transmission lines ECE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MECH</controllingFieldValue>
+                <valueName>Machine drawing MECH</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MECH</controllingFieldValue>
+                <valueName>Thermal Engineering MECH</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CIVIL</controllingFieldValue>
+                <valueName>Strength of materials CIVIL</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CIVIL</controllingFieldValue>
+                <valueName>Concrete technology CIVIL</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <label>College</label>
+    <nameField>
+        <label>College Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Colleges</pluralLabel>
+    <searchLayouts />
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>
