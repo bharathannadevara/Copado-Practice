@@ -274,6 +274,40 @@
             </valueSettings>
         </valueSet>
     </fields>
+    <fields>
+        <fullName>Test__c</fullName>
+        <externalId>false</externalId>
+        <label>Test</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Test 1</fullName>
+                    <default>false</default>
+                    <label>Test 1</label>
+                </value>
+                <value>
+                    <fullName>Test 2</fullName>
+                    <default>false</default>
+                    <label>Test 2</label>
+                </value>
+                <value>
+                    <fullName>Test 3</fullName>
+                    <default>false</default>
+                    <label>Test 3</label>
+                </value>
+                <value>
+                    <fullName>Test 4</fullName>
+                    <default>false</default>
+                    <label>Test 4</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
     <label>College</label>
     <nameField>
         <label>College Name</label>
